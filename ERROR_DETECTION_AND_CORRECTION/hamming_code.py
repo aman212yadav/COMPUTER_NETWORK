@@ -15,8 +15,7 @@ for i in range(m+r-1,-1,-1):
     if p&(p-1)!=0:
         l[i]=int(msg[j])
         j-=1
-    else:
-        l[i]=-1
+
 for i in range(r):
     j=m+r-2**i
     idx=j
